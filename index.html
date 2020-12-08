@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Name of the tab -->
+  <title>Siren Jams</title>
+  <!-- Use the stylesheet -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script2.js"></script>
+	<header>
+    <!-- People often put the navigation bar inside this tag -->
+		<nav>
+			<!-- ul: unordered list -->
+			<ul>
+				<!-- li: list item -->
+				<li>
+					<!-- tag: a (link) -->
+					<!-- attribute: href (source, or, link address) -->
+					<a href="/">Home</a>
+					<a href="music.html">Music</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<!-- tag: h2 (header size 2) -->
+		<h2>Siren Jams</h2>
+
+		<!-- tag: p (paragraph) -->
+		<p>Welcome to Siren Jams Website</p>
+    
+    <div>
+      <canvas id="myCanvas"/>
+    </div>
+
+		<!-- tag: img (image)-->
+		<!-- attribute: src (source, or, image address)-->
+		<!-- attribute: width -->
+		<img src="images/beach.jpg" width="300"></img>
+
+    <br>
+    <!-- tag: input -->
+    <!-- attribute: onkeyup; function called when key is lifted -->
+    <!-- attribute: type="text"; input is for strings -->
+    <input id="artistInput" type="text" onkeyup="sendRequest(event)">
+
+    <p id="artistOutput">Type an artist above:</p>
+	</main>
+  
+	<footer>
+	</footer>
+
+  <!-- interacting with canvas -->
+  <script src="script3.js"></script>
+</body>
+
+</html>

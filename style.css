@@ -1,0 +1,32 @@
+body {
+  color: rgb(14, 8, 14);
+  background-color: rgb(245, 251, 245);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style-type: none;
+  background-color: rgb(251, 253, 253);
+  margin: 0;
+  padding: 10px;
+}
+
+a {
+  /* Text color of each <a> tag */
+  color: rgb(48, 65, 141);
+  /* Don't put underline for <a> tags */
+  text-decoration: none;
+
+  /* Padding around each <a> tag */
+  padding: 10px;
+  /* Rounded corners for <a> tags */
+  border-radius: 10px;
+
+  /* Transition when selector is applied */
+  transition: background-color 1s;
+}
+
+a:hover {
+  background-color: rgb(172, 202, 172);
+  font-weight: bold;
+}

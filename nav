@@ -1,0 +1,23 @@
+
+li {
+  /* White space around <li> tags */
+  margin: 4px;
+}
+
+li a {
+  /* Extra space around <a> tag */ 
+  padding: 8px;
+  /* Style of <a> tags inside <li> tags */
+  text-decoration: none;
+  color: rgb(48, 65, 141);
+  border-radius: 4px;
+  /* Transition: which property to tigger on, and the time it takes to transition*/
+  transition: background-color 0.5s;
+  transition: font-weight 1s;
+}
+
+/* When hovering with mouse over <a> tags inside <li> tags */
+li a:hover {
+  background-color: rgb(166, 196, 168);
+  font-weight: bold;
+}
