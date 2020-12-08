@@ -17,7 +17,7 @@ function drawLine(x1,y1, x2,y2) {
 }
 
 // speed x
-var jay = 95;
+var jay = 300;
 
 // R
 /// 1. vertical line
