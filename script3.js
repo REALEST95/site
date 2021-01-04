@@ -87,7 +87,6 @@ var lines = [
   { start: { x: 336, y: 10 }, end: { x: 336, y: 120 } },
   // L: horizontal line */
   { start: { x: 336, y: 120 }, end: { x: 400, y: 120 } },
-  
 ];
 
 
