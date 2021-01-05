@@ -93,7 +93,7 @@ var lines = [
 // variable equal to number of lines in list
 var numberOfLines = lines.length;
 // time in milliseconds. gets used in for loop below 
-var waitTimePerLine = 100;
+var waitTimePerLine = 90;
 
 // loop starting at 0 and repeats for each line
 for (var n = 0; n < numberOfLines; n++) {
