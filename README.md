@@ -9,7 +9,14 @@
 - javascript can be use to create variables.
   - types of variables:
     - strings
-    - object 
-    - number 
+    A string can be any text inside double or single quotes
+    - object
+    objects have many pairs of properties and values
+    var person =(name:"ivar",age:17,country:"norway") 
+    - number
+    number examples: 4.3, 9.25, -37
     - array
+    is a list
+    var L = [1,2,3]
+    var Food =["can meats","fruits"]
     - events
